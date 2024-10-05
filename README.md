@@ -12,7 +12,7 @@
 
 1. Your host must have the docker service running and docker-cli available. The CE / os packaged version is also fine.
     
-    1.1 E.g. on Debian follow these steps: https://docs.docker.com/engine/install/debian/
+    1. E.g. on Debian follow these steps: https://docs.docker.com/engine/install/debian/
 
 1. Copy `.env.template` to `.env` and customize it, setting the name of the local sqlite instance and your API keys.
 
