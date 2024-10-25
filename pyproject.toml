@@ -31,3 +31,11 @@ transformers = "^4.36.1"
 pytest = "^8.3.2"
 replicate = "^0.32.1"
 rich = "^13.9.2"
+jupyterlab = "^4.2.5"
+matplotlib = "^3.9.2"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
