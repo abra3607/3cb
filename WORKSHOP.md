@@ -2,6 +2,7 @@
   <h1>Agent Evals Workshop</h1>
 </div>
 
+- [Slides](https://abra.me/3cb)
 - [Main doc](./README.md)
 
 ## How to get started

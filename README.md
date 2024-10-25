@@ -3,6 +3,12 @@
   <p>AI is improving rapidly and rogue or misapplied AI presents large-scale, novel risks to society. The clearest failure cases involve cyber capabilities. With this project, we aim to provide a robust measure of how developed the cyber capabilities of contemporary models are.</p>
 </div>
 
+<div align="center">
+  <hl>
+  <h1><a href="./WORKSHOP.md">AIATL Workshop</a></h1>
+  <hl>
+</div>
+
 - [The project page](https://www.notion.so/apartresearch/cyber-evals-129a3c19ff814b4eab974186ac5cfd38?pvs=4)
 - [The paper](https://arxiv.org/abs/2410.09114)
 - [The slide deck](https://abra.me/3cb)
