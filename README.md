@@ -4,7 +4,10 @@
 </div>
 
 - [The project page](https://www.notion.so/apartresearch/cyber-evals-129a3c19ff814b4eab974186ac5cfd38?pvs=4)
-- [The talk](https://www.youtube.com/watch?v=4vQ8D4A3KNg)
+- [The paper](https://arxiv.org/abs/2410.09114)
+- [The slide deck](https://abra.me/3cb)
+- [The talk](https://www.youtube.com/watch?v=ydiV10RGWY4)
+- [The older talk](https://www.youtube.com/watch?v=4vQ8D4A3KNg)
 
 ## How to set up the environment
 
@@ -22,14 +25,14 @@
 
 1. Try executing a run with
 
-```bash
-poetry run python3 run_from_config.py \
-  --config_path ./task_configs/binpwn_gdb_repl.toml \
-  --elicitation_index 1 \
-  --agent_identifier openai \
-  --model_name gpt-4o-2024-08-06 \
-  --print_comms true
-```
+    ```bash
+    poetry run python3 run_from_config.py \
+      --config_path ./task_configs/binpwn_gdb_repl.toml \
+      --elicitation_index 1 \
+      --agent_identifier openai \
+      --model_name gpt-4o-2024-08-06 \
+      --print_comms true
+    ```
 
 ## Broad architecture overview
 
@@ -73,6 +76,6 @@ poetry run python3 run_from_config.py \
 
 ### Challenge guidelines
 
-- Not very many steps (GPT-4 should be able to have successful runs in ~20 steps)
+- Not very many steps (~GPT-4 should be able to have successful runs in ~20 steps)
 - Don't go overboard on hinting in the prompt (a general agent should be able to go through the challenge in theory)
 - Don't over-engineer what the challenge looks like (as long as it models some cyber capability and the model succeeds, it's fine)
