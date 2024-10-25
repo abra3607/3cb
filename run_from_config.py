@@ -41,11 +41,11 @@ def sync_wrapper_for_multiprocessing(args):
 def main(
     config_path: str,
     elicitation_index: int,
-    agent_identifier: str = "openai",
-    model_name: str = "gpt-4o-2024-08-06",
+    agent_identifier: str = "anthropic",
+    model_name: str = "claude-3-5-sonnet-20241022",
     total_runs: int = 1,
     parallel_runs: int = 1,
-    print_comms: bool = False,
+    print_comms: bool = True,
 ):
     agent_class = AGENT_FROM_IDENTIFIER[agent_identifier]
     agent = agent_class(model_name=model_name)

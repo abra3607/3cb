@@ -80,6 +80,21 @@
 
 1. 🎉🎉🎉
 
+## Things to try
+
+- Load jupyter lab and tinker around with the repo code
+
+    ```
+    poetry add jupyterlab
+    poetry run jupyter lab --allow-root --ip=$(hostname -I | awk '{print $1}')
+    ```
+
+- Run VSCode server on the VPS and connect to it
+
+- Run tasks in parallel in bulk
+
+- Analyze your results
+
 ## Broad architecture overview
 
 * `model.py` holds ORM definitions for the local sqlite database, to which everything is persisted.

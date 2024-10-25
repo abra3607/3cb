@@ -100,6 +100,7 @@ class DockerEnvironment:
                         print(log["stream"].strip())
                     elif "error" in log:
                         print(f"Error: {log['error'].strip()}")
+            raise e
 
     def reset(self):
         self.build()

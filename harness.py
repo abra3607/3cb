@@ -33,6 +33,10 @@ class Harness:
                 name=task_config.name,
                 toml_content=task_config.to_normalized_toml(),
             )
+
+        if elicitation_index >= len(task_config.elicitations):
+            raise exceptions.RunErrorException(f'No elicitation with index {elicitation_index} in the config provided.')
+
         elicitation = task_config.elicitations[elicitation_index]
         
         async with model.database.transaction():
